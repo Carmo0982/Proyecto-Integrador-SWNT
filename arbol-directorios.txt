@@ -1,0 +1,66 @@
+ecotech-inventory
+├── docs
+│   ├── arbol-directorios.txt
+│   ├── PROMPT_MAESTRO.md
+│   └── RESPUESTA_IA.md
+├── public
+│   └── favicon.svg
+├── scripts
+│   └── scaffold.sh
+├── src
+│   ├── components
+│   │   ├── inventory
+│   │   │   └── index.ts
+│   │   ├── layout
+│   │   │   └── index.ts
+│   │   ├── ui
+│   │   │   └── index.ts
+│   │   ├── index.ts
+│   │   └── README.md
+│   ├── context
+│   │   ├── index.ts
+│   │   └── README.md
+│   ├── hooks
+│   │   ├── index.ts
+│   │   ├── README.md
+│   │   └── useProducts.ts
+│   ├── pages
+│   │   ├── index.ts
+│   │   └── README.md
+│   ├── services
+│   │   ├── supabase
+│   │   │   ├── client.ts
+│   │   │   ├── database.types.ts
+│   │   │   ├── index.ts
+│   │   │   └── README.md
+│   │   ├── index.ts
+│   │   ├── products.service.ts
+│   │   └── README.md
+│   ├── types
+│   │   ├── index.ts
+│   │   ├── inventory.types.ts
+│   │   └── README.md
+│   ├── utils
+│   │   ├── index.ts
+│   │   └── README.md
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── supabase
+│   ├── migrations
+│   │   └── .gitkeep
+│   └── README.md
+├── .env.example
+├── .gitignore
+├── .oxlintrc.json
+├── ARCHITECTURE.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+17 directories, 46 files
